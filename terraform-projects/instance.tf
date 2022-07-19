@@ -1,7 +1,7 @@
 provider "aws" {
   region                  = "sa-east-1"
   #shared_credentials_file = "/home/amaurybsouza/.aws/credentials"
-  profile                 = "sre"
+  #profile                 = "sre"
 }
 
 resource "aws_instance" "machine01" {
